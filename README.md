@@ -1,2 +1,2 @@
 # lirika_game
-this on
+🫦A project for novice developers👨‍💻
