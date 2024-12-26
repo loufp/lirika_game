@@ -1,21 +1,24 @@
-import pygame 
-class guning():
-    def __init__(self,game):
-        self.screen=game
-        self.screen_rect=self.screen.get_rect() 
+import pygame
 
-        self.image=pygame.image.load('.vscode/vecteezy_gun-retro-vector-vintage-cowboy-art-gangster-illustration_7098484.jpg')
-        self.rect=self.image.get_rect()
-        
-        self.rect.midbottom=self.screen_rect.midbottom
-        self.moving_right= False
-        self.moving_left= False
-    
+class guning:
+    def __init__(self, game, settings):
+        self.screen = game
+        self.screen_rect = self.screen.get_rect()
+
+        self.image = pygame.image.load('.vscode/vecteezy_gun-retro-vector-vintage-cowboy-art-gangster-illustration_7098484.jpg')
+        self.rect = self.image.get_rect()
+
+        self.rect.midbottom = self.screen_rect.midbottom
+        self.moving_right = False
+        self.moving_left = False
+        self.s_settings = settings
+
     def update(self):
-        if self.moving_right:
-            self.rect.x+=1
-        if self.moving_left:
-            self.rect.x-=1
+        if self.moving_right and self.rect.right < self.screen_rect.right:
+            self.rect.x += self.s_settings.ship_speed
+        if self.moving_left and self.rect.left > 0:
+            self.rect.x -= self.s_settings.ship_speed
 
     def blitme(self):
-        self.screen.blit(self.image,self.rect)          
+        self.screen.blit(self.image, self.rect)
+      
