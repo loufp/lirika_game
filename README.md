@@ -3,7 +3,16 @@
 ***UPDATE EVERY DAY***
 
 December 25 : Added movement and different sides
-------------------------------------------------
-1.The following update: Will update the movement settings, we will be able to move by a fractional value (for example, 1.5)
 
-2.A screen restriction will also be added.
+------------------------------------------------
+December 27 : 
+1.Added full-screen mode
+
+2.Added restricted ship exit zones
+
+3.Refactored _check_event to ( _check_keydown_events, _check_keyup_events)
+
+4.Added exit from the game using the q or Q key
+
+------------------------------------------------
+!!!🔫 Shooting will be added in the next update 🫦!!!
