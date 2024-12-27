@@ -6,6 +6,7 @@ December 25 : Added movement and different sides
 
 ------------------------------------------------
 December 27 : 
+
 1.Added full-screen mode
 
 2.Added restricted ship exit zones
