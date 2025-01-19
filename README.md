@@ -16,4 +16,21 @@ December 27 :
 4.Added exit from the game using the q or Q key
 
 ------------------------------------------------
-!!!🔫 Shooting will be added in the next update 🫦!!!
+January 20 :
+
+1.Added shooting
+
+2.Added aliens
+
+3.Added setting for bullet
+
+4.Added settings for alien 
+
+4.A general refactoring has been performed
+
+------------------------------------------------
+!!! 💕Settings for the alien and settings its movement will be added in the next update.🫦!!!
+
+!!!🫀I apologize for the long absence of updates🫤!!!
+
+-----Normal images and their sizes will be edited later-----
