@@ -5,3 +5,9 @@ class Setting():
         self.screen_height=(1000)
         self.bg_color=(138,43,226)
         self.ship_speed=13.7
+        #    BULLET     # SETTINGS
+        self.bullet_speed=1.2
+        self.bullet_width=3
+        self.bullet_height=15
+        self.bullet_color=(222,222,222)
+        self.bullet_allowed= 3
